@@ -24,5 +24,5 @@
 Before running the application, ensure you have the following:
 
 - **Java Development Kit (JDK)**
-- **Apache Tomcat**: Version 9 or later.
-- **MySQL**: For database management.
+- **Apache Tomcat**
+- **MySQL**
