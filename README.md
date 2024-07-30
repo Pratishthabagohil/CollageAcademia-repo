@@ -7,6 +7,7 @@ Marks Display: View marks for various subjects.
 Attendance Tracking: Check attendance records.
 Subject Information: Access details about subjects and associated faculty members.
 Fees Management: View fee details and receipts.
+
 Built With
 Java: Core programming language used.
 Apache Tomcat: Web server and servlet container.
