@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #de0a26;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .logo {
+      padding: 30px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .logo img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      margin: auto;
+      margin-top: 40px; /* Increased margin between header/logo and login */
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      display: block;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .error-message {
+      color: red;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Login Page</h1>
+</div>
+
+<div class="logo">
+  <!--<img src="https://indusuni.ac.in/wp-content/uploads/2019/02/INDUS-UNIVERSITY-LOGO.png" alt="Your Logo">-->
+</div>
+
+<div class="container">
+  <h2>Login</h2>
+  <form action="loginpage" method="get">
+    <div class="error-message" id="error-message"></div>
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+</body>
+</html>
